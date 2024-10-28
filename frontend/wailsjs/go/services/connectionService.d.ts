@@ -5,6 +5,6 @@ import {context} from '../models';
 
 export function ListConnections():Promise<types.JSResp>;
 
-export function SaveConnetion(arg1:types.Connection):Promise<types.JSResp>;
+export function SaveConnection(arg1:types.Connection):Promise<types.JSResp>;
 
 export function Startup(arg1:context.Context):Promise<void>;

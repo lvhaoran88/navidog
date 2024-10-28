@@ -6,8 +6,8 @@ export function ListConnections() {
   return window['go']['services']['connectionService']['ListConnections']();
 }
 
-export function SaveConnetion(arg1) {
-  return window['go']['services']['connectionService']['SaveConnetion'](arg1);
+export function SaveConnection(arg1) {
+  return window['go']['services']['connectionService']['SaveConnection'](arg1);
 }
 
 export function Startup(arg1) {

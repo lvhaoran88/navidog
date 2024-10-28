@@ -59,8 +59,8 @@ func (cs *connectionService) ListConnections() (resp types.JSResp) {
 	return
 }
 
-// SaveConnetion
-func (cs *connectionService) SaveConnetion(connection types.Connection) (resp types.JSResp) {
+// SaveConnection
+func (cs *connectionService) SaveConnection(connection types.Connection) (resp types.JSResp) {
 	connections := cs.listConnections()
 	if connection.ID == "" {
 		// 新建场景
