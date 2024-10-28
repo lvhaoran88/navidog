@@ -3,11 +3,11 @@ package types
 import "fmt"
 
 type MysqlConnection struct {
-	Host     string `json:"host"`
-	Port     string `json:"port"`
-	Username string `json:"username"`
-	Password string `json:"password"`
-	Database string `json:"database,omitempty"`
+	Host     string `json:"host" yaml:"host"`
+	Port     string `json:"port" yaml:"port"`
+	Username string `json:"username" yaml:"username"`
+	Password string `json:"password" yaml:"password"`
+	Database string `json:"database,omitempty" yaml:"database,omitempty"`
 }
 
 // FormatDSN
