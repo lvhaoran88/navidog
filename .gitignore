@@ -1,0 +1,8 @@
+build/bin
+frontend/dist
+frontend/node_modules
+.idea
+.vscode
+frontend/package-lock.json
+frontend/package
+frontend/package.json.md5
