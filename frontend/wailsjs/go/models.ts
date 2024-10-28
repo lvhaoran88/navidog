@@ -2,7 +2,7 @@ export namespace types {
 	
 	export class MysqlConnection {
 	    host: string;
-	    port: string;
+	    port: number;
 	    username: string;
 	    password: string;
 	    database?: string;

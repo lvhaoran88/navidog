@@ -17,3 +17,7 @@ export function Startup(arg1) {
 export function TestConnection(arg1) {
   return window['go']['services']['mysqlService']['TestConnection'](arg1);
 }
+
+export function TransferData(arg1, arg2, arg3) {
+  return window['go']['services']['mysqlService']['TransferData'](arg1, arg2, arg3);
+}

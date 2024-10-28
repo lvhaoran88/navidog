@@ -10,3 +10,5 @@ export function ListTables(arg1:types.MysqlConnection):Promise<types.JSResp>;
 export function Startup(arg1:context.Context):Promise<void>;
 
 export function TestConnection(arg1:types.MysqlConnection):Promise<types.JSResp>;
+
+export function TransferData(arg1:types.MysqlConnection,arg2:types.MysqlConnection,arg3:Array<string>):Promise<types.JSResp>;
