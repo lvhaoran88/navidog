@@ -5,3 +5,7 @@
 export function Startup(arg1) {
   return window['go']['services']['mysqlService']['Startup'](arg1);
 }
+
+export function TestConnection(arg1) {
+  return window['go']['services']['mysqlService']['TestConnection'](arg1);
+}
