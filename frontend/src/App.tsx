@@ -1,6 +1,7 @@
-import { ConfigProvider, Layout } from "antd";
+import { ConfigProvider, Layout, Space } from "antd";
 import zhCN from "antd/locale/zh_CN";
 import CreateConnection from "./page/CreateConnection";
+import TransferData from "./page/TransferData";
 
 function App() {
   return (
@@ -23,7 +24,10 @@ function App() {
         }}
       >
         <Layout.Header style={{ borderBottom: "1px solid #e0e0e0" }}>
-          <CreateConnection />
+          <Space>
+            <CreateConnection />
+            <TransferData />
+          </Space>
         </Layout.Header>
         <Layout>
           <Layout.Sider></Layout.Sider>
